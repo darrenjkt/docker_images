@@ -28,4 +28,7 @@ RUN conda install -c pytorch\
     cudatoolkit=10.2 \
     && conda clean -ya
 
+# Add additional python requirements in a requirement.txt file in the same folder as Dockerfile
+# RUN pip install -r requirements.txt    
+
 WORKDIR /workspace
