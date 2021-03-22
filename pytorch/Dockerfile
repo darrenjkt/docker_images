@@ -29,6 +29,7 @@ RUN conda install -c pytorch\
     && conda clean -ya
 
 # Add additional python requirements in a requirement.txt file in the same folder as Dockerfile
-# RUN pip install -r requirements.txt    
+# COPY ./requirements.txt /tmp/requirements.txt
+# RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /workspace
