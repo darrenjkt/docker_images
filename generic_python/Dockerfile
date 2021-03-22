@@ -25,8 +25,4 @@ RUN curl -o ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest
      /opt/conda/bin/conda clean -ya
 ENV PATH /opt/conda/bin:$PATH
 
-RUN pip install \
-    scikit-learn==0.22.2 \
-    opencv-python
-
 WORKDIR /workspace
