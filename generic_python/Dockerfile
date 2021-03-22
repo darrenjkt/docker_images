@@ -20,8 +20,8 @@ RUN curl -o ~/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest
     && chmod +x ~/miniconda.sh \
     && ~/miniconda.sh -b -p /opt/conda \
     && rm ~/miniconda.sh \
-    && /opt/conda/bin/conda install -y python=$PYTHON_VERSION numpy pyyaml scipy ipython mkl mkl-include cython && \
-     /opt/conda/bin/conda clean -ya
+    && /opt/conda/bin/conda install -y python=$PYTHON_VERSION \
+    && /opt/conda/bin/conda clean -ya
 ENV PATH /opt/conda/bin:$PATH
 
 WORKDIR /workspace
