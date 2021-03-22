@@ -1,4 +1,4 @@
-# Docker Images
+# Docker Images for Python and ROS
 
 All docker images in this repo have been configured to be able to display any pop-up windows from inside the container on the local host computer. The `run.sh` scripts are basically all the same. 
 
