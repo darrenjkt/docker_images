@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_NAME="djkt/ros"
+IMAGE_NAME="darrenjkt/ros"
 ROS_DISTRO="melodic"
 CUDA_VER="cuda10.1"
 CUDNN_VER="cudnn7"
