@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_NAME="djkt/ros"
+IMAGE_NAME="darrenjkt/ros"
 ROS_DISTRO="melodic"
 TAG=$IMAGE_NAME:$ROS_DISTRO
 
