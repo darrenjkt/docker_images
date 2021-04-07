@@ -7,5 +7,6 @@ All docker images in this repo have been configured to be able to display any po
 2. Pytorch - Python 3.8 with Pytorch
 3. Tensorflow - Python 3.8 with Tensorflow (to be added)
 
-## ROS 
-1. ROS with RViz - Builds a catkin workspace upon entering. Can open RViz/rqt windows from within docker
+## ROS Melodic
+1. Catkin_ws - Built on barebones ubuntu18.04 image, runs as root. Creates catkin_ws and builds/sources it upon running the container
+2. Cuda_cudnn - Built on different nvidia/cuda images to run perception algorithms that use Pytorch/Tensorflow in a ros framework
